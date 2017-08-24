@@ -1,2 +1,2 @@
 # udacity-dlnd-P4
-Neural Machine Translation with TensorFlow
+Objective: Train a sequence to sequence network for English to French translation (on a simple dataset).
