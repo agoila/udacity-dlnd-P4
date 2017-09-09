@@ -100,7 +100,7 @@ def test_model_inputs(model_inputs):
             'Source Sequence Length has bad name.  Found name {}'.format(source_sequence_length.name)
         assert keep_prob.name == 'keep_prob:0', \
             'Keep Probability has bad name.  Found name {}'.format(keep_prob.name)
-
+            
         assert tf.assert_rank(input_data, 2, message='Input data has wrong rank')
         assert tf.assert_rank(targets, 2, message='Targets has wrong rank')
         assert tf.assert_rank(lr, 0, message='Learning Rate has wrong rank')
